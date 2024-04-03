@@ -1,0 +1,10 @@
+[user]
+	email = 144752825+Jubbim0@users.noreply.github.com
+	name = Jubbim0
+[core]
+	excludesfile = /Users/wjubb/.gitignore_global
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
